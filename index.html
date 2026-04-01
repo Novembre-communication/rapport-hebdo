@@ -140,7 +140,7 @@
   <h1 style="font-size:28px;font-weight:900;letter-spacing:-1px;line-height:1.1;">ATERNO</h1>
   <h2 style="font-size:15px;font-weight:500;opacity:0.7;margin-top:4px;letter-spacing:1px;text-transform:uppercase;">Rapport Hebdomadaire — Campagnes Meta Ads</h2>
   <div style="margin-top:14px;display:inline-block;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:20px;padding:5px 16px;font-size:12px;opacity:0.8;">
-    📅 Semaine du <strong id="semaine-label">—</strong> &nbsp;·&nbsp; Mis à jour le <strong id="date-label">—</strong>
+    📅 Semaine du <strong>30/03/26 → 02/04/26</strong> &nbsp;·&nbsp; Mis à jour le <strong>01/04/26</strong>
   </div>
 </div>
 
@@ -240,7 +240,7 @@
           <td><strong>Nouveaux prospects</strong><small>Adultes 40-70 ans, toute la France</small></td>
           <td><strong style="font-size:16px;color:#15803d;font-weight:800;">741</strong><small>leads · CPL 20,19 €</small></td>
           <td><strong>21 visuels actifs</strong><small>5 arrêtés (optimisation)</small><br><button onclick="toggleCreas()" id="btn-creas" style="margin-top:6px;background:#1a1a2e;color:white;border:none;border-radius:6px;padding:4px 10px;font-size:11px;cursor:pointer;">▶ Voir les visuels</button></td>
-          <td><strong>14 958 €</strong><small>/ 24 000 €</small></td>
+          <td><strong>—</strong></td>
           <td><span class="badge b-live">🟢 En ligne</span></td>
           <td><span class="form-ok">✅ Formulaire OK</span></td>
         </tr>
@@ -260,7 +260,7 @@
           <td><strong>Retargeting</strong><small>Visiteurs récents du site (30 j.)</small></td>
           <td><strong style="font-size:16px;color:#15803d;font-weight:800;">167</strong><small>leads · CPL 24,27 €</small></td>
           <td><strong>9 visuels actifs</strong><small>10 arrêtés (optimisation)</small><br><button onclick="toggleCreasRetargeting()" id="btn-creas-ret" style="margin-top:6px;background:#1a1a2e;color:white;border:none;border-radius:6px;padding:4px 10px;font-size:11px;cursor:pointer;">▶ Voir les visuels</button></td>
-          <td><strong>4 054 €</strong><small>/ 8 000 €</small></td>
+          <td><strong>—</strong></td>
           <td><span class="badge b-live">🟢 En ligne</span></td>
           <td><span class="form-ok">✅ Formulaire OK</span></td>
         </tr>
@@ -277,8 +277,71 @@
           <td colspan="2">💰 Total Bilan Thermique</td>
           <td><strong style="color:#15803d;">908 leads</strong><small>741 + 167</small></td>
           <td></td>
-          <td><strong>19 012 €</strong><small>/ 32 000 €</small></td>
+          <td><strong>—</strong></td>
           <td colspan="2"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- SOLAIRE -->
+<div class="section">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+    <span style="font-size:18px;">☀️</span>
+    <div>
+      <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#22c55e;margin-bottom:2px;">Campagne active</div>
+      <div style="font-size:16px;font-weight:800;color:#1a1a2e;">Solaire</div>
+    </div>
+  </div>
+  <div class="table-wrap">
+    <table class="camp-table">
+      <thead>
+        <tr>
+          <th>Période</th>
+          <th>Audience cible</th>
+          <th>Résultats</th>
+          <th>Nb de visuels actifs</th>
+          <th>Montant dépensé</th>
+          <th>Statut campagne</th>
+          <th>Statut formulaire</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01/04/26 → 30/04/26</td>
+          <td><strong>Nouveaux prospects</strong><small>Adultes 33 ans+ · Intérêt habitat & énergies renouvelables</small></td>
+          <td><strong style="font-size:16px;color:#15803d;font-weight:800;">—</strong><small>leads · CPL —</small></td>
+          <td><strong>13 visuels actifs</strong></td>
+          <td><strong>—</strong></td>
+          <td><span class="badge b-live">🟢 En ligne</span></td>
+          <td><span class="form-ok">✅ Formulaire SMS OK</span></td>
+        </tr>
+        <tr>
+          <td><strong>—</strong><small>En attente</small></td>
+          <td><strong>Nouveaux prospects</strong><small>Adultes 33 ans+ · Intérêt habitat & énergies renouvelables</small></td>
+          <td><strong style="font-size:16px;color:#15803d;font-weight:800;">—</strong><small>leads · CPL —</small></td>
+          <td><strong>13 visuels prévus</strong></td>
+          <td><strong>—</strong></td>
+          <td><span class="badge b-wait">⏳ En attente</span></td>
+          <td><span class="form-lp">🔗 LP en attente</span></td>
+        </tr>
+        <tr class="budget-row">
+          <td colspan="4">💰 Total Solaire</td>
+          <td><strong>—</strong></td>
+          <td></td>
+          <td><button onclick="toggleCreasSolaire()" id="btn-creas-sol" style="background:#1a1a2e;color:white;border:none;border-radius:6px;padding:5px 12px;font-size:11px;cursor:pointer;white-space:nowrap;">▶ Voir les visuels</button></td>
+        </tr>
+        <!-- BLOC CREAS SOLAIRE -->
+        <tr id="row-creas-solaire" style="display:none;">
+          <td colspan="7" style="background:#f8faff;padding:16px 20px;">
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;">
+              <img src="https://i.imgur.com/sfV2Dl8.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
+              <img src="https://i.imgur.com/I6SeZjG.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
+              <img src="https://i.imgur.com/xubSF8t.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
+              <img src="https://i.imgur.com/eWYVFI4.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
+            </div>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -312,7 +375,7 @@
       <div class="local-row">
         <span class="lbl">Salon Albertville</span>
         <span class="date">25/03 → 29/03</span>
-        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
+        <span class="badge b-done" style="font-size:10px;padding:2px 7px;">✔️ Terminé</span>
       </div>
       <div class="local-budget"><span>Budget total</span><span>1 700 €</span></div>
     </div>
@@ -332,7 +395,7 @@
       <div class="local-row">
         <span class="lbl">Salon Béthune</span>
         <span class="date">25/03 → 29/03</span>
-        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
+        <span class="badge b-done" style="font-size:10px;padding:2px 7px;">✔️ Terminé</span>
       </div>
       <div class="local-row">
         <span class="lbl">Salon Dunkerque</span>
@@ -377,7 +440,7 @@
       <div class="local-row">
         <span class="lbl">Salon Arcachon</span>
         <span class="date">25/03 → 29/03</span>
-        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
+        <span class="badge b-done" style="font-size:10px;padding:2px 7px;">✔️ Terminé</span>
       </div>
       <div class="local-budget"><span>Budget total</span><span>1 700 €</span></div>
     </div>
@@ -397,7 +460,7 @@
       <div class="local-row">
         <span class="lbl">Salon La Ferté</span>
         <span class="date">25/03 → 29/03</span>
-        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
+        <span class="badge b-done" style="font-size:10px;padding:2px 7px;">✔️ Terminé</span>
       </div>
       <div class="local-budget"><span>Budget total</span><span>1 700 €</span></div>
     </div>
@@ -417,12 +480,12 @@
       <div class="local-row">
         <span class="lbl">Salon St-Dié</span>
         <span class="date">25/03 → 29/03</span>
-        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
+        <span class="badge b-done" style="font-size:10px;padding:2px 7px;">✔️ Terminé</span>
       </div>
       <div class="local-row">
         <span class="lbl">Foire Bar-sur-Seine</span>
         <span class="date">01/04 → 12/04</span>
-        <span class="badge b-soon" style="font-size:10px;padding:2px 7px;">📅 Programmé</span>
+        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
       </div>
       <div class="local-row">
         <span class="lbl">Foire Montbéliard</span>
@@ -452,7 +515,7 @@
       <div class="local-row">
         <span class="lbl">Salon Mende</span>
         <span class="date">01/04 → 12/04</span>
-        <span class="badge b-soon" style="font-size:10px;padding:2px 7px;">📅 Programmé</span>
+        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
       </div>
       <div class="local-budget"><span>Budget total</span><span>1 800 €</span></div>
     </div>
@@ -512,7 +575,7 @@
       <div class="local-row">
         <span class="lbl">Galerie Ibos (1)</span>
         <span class="date">25/03 → 28/03</span>
-        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
+        <span class="badge b-done" style="font-size:10px;padding:2px 7px;">✔️ Terminé</span>
       </div>
       <div class="local-row">
         <span class="lbl">Galerie Ibos (2)</span>
@@ -537,7 +600,7 @@
       <div class="local-row">
         <span class="lbl">Salon Ploërmel</span>
         <span class="date">25/03 → 29/03</span>
-        <span class="badge b-live" style="font-size:10px;padding:2px 7px;">🟢 En ligne</span>
+        <span class="badge b-done" style="font-size:10px;padding:2px 7px;">✔️ Terminé</span>
       </div>
       <div class="local-budget"><span>Budget total</span><span>1 730 €</span></div>
     </div>
@@ -565,7 +628,7 @@
           <th>Vidéo</th>
           <th>Plateforme</th>
           <th>Période de diffusion</th>
-          <th>Budget</th>
+          <th>Montant dépensé</th>
           <th>Statut campagne</th>
           <th>Statut formulaire</th>
         </tr>
@@ -576,7 +639,7 @@
           <td>Facebook + Instagram</td>
           <td>18/03 → 30/03/26</td>
           <td>250 €</td>
-          <td><span class="badge b-live">🟢 En ligne</span></td>
+          <td><span class="badge b-done">✔️ Terminée</span></td>
           <td><span class="form-no">— Sans formulaire</span></td>
         </tr>
         <tr>
@@ -651,66 +714,8 @@
   </div>
 </div>
 
-<!-- SÉPARATEUR À VENIR -->
-<div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;margin-top:10px;">
-  <div style="background:#7c3aed;border-radius:8px;padding:6px 16px;display:flex;align-items:center;gap:8px;box-shadow:0 2px 8px rgba(124,58,237,0.3);">
-    <span style="font-size:14px;">📅</span>
-    <span style="font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:white;">Campagnes à venir</span>
-  </div>
-  <div style="flex:1;height:1px;background:linear-gradient(to right,#7c3aed40,transparent);"></div>
-</div>
 
-<!-- SOLAIRE -->
-<div class="section">
-  <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
-    <span style="font-size:18px;">☀️</span>
-    <div>
-      <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#7c3aed;margin-bottom:2px;">Campagne à venir</div>
-      <div style="font-size:16px;font-weight:800;color:#1a1a2e;">Solaire</div>
-    </div>
-  </div>
-  <div class="table-wrap">
-    <table class="camp-table">
-      <thead>
-        <tr>
-          <th>Audience cible</th>
-          <th>Objectif</th>
-          <th>Nb de visuels actifs</th>
-          <th>Budget</th>
-          <th>Statut campagne</th>
-          <th>Statut formulaire</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Nouveaux prospects</strong><small>Adultes 33 ans+ · Intérêt habitat & énergies renouvelables</small></td>
-          <td>Générer des demandes de bilan solaire</td>
-          <td><strong>13 visuels prévus</strong><br><button onclick="toggleCreasSolaire()" id="btn-creas-sol" style="margin-top:6px;background:#1a1a2e;color:white;border:none;border-radius:6px;padding:4px 10px;font-size:11px;cursor:pointer;">▶ Voir les visuels</button></td>
-          <td><strong>18 000 €</strong></td>
-          <td><span class="badge b-wait">⏳ En attente GO Aterno</span></td>
-          <td><span class="form-wait">⏳ Attente IT</span></td>
-        </tr>
-        <!-- BLOC CREAS SOLAIRE -->
-        <tr id="row-creas-solaire" style="display:none;">
-          <td colspan="6" style="background:#f8faff;padding:16px 20px;">
-            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;">
-              <img src="https://i.imgur.com/sfV2Dl8.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
-              <img src="https://i.imgur.com/I6SeZjG.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
-              <img src="https://i.imgur.com/xubSF8t.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
-              <img src="https://i.imgur.com/eWYVFI4.png" style="width:100%;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'" onclick="openModal(this.src)">
-            </div>
-          </td>
-        </tr>
-        <tr class="budget-row">
-          <td colspan="3">💰 Total Solaire</td>
-          <td><strong>18 000 €</strong></td>
-          <td colspan="2"></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <p style="font-size:12px;color:#6b7280;margin-top:8px;">ℹ️ Campagne prête. En attente du GO côté Aterno (validation IT requise pour la mise en ligne du formulaire).</p>
-</div>
+
 
 <div class="footer">Document réalisé par Novembre communication · Aterno x Novembre · Rapport hebdomadaire</div>
 
